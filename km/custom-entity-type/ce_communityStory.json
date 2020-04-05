@@ -1,0 +1,35 @@
+{
+  "$id": "ce_communityStory",
+  "$schema": "https://schema.yext.com/config/km/custom-entity-type/v1",
+  "apiName": "ce_communityStory",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "location.business_description",
+      "required": false
+    },
+    {
+      "id": "location.business_name",
+      "required": true
+    },
+    {
+      "id": "location.folder_location",
+      "required": false
+    },
+    {
+      "id": "location.labels",
+      "required": false
+    },
+    {
+      "id": "location.store_id",
+      "required": true
+    },
+    {
+      "id": "location.youtube_videos",
+      "required": false
+    }
+  ],
+  "description": "This is a description. ",
+  "displayName": "Community Story",
+  "pluralDisplayName": "Community Stories"
+}
